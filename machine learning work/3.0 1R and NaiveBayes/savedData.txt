@@ -1,0 +1,6 @@
+2
+1.0 to 1.5,Iris-setosa
+1.5 to 3.8,Iris-setosa
+3.9 to 4.6,Iris-versicolor
+4.7 to 5.5,Iris-virginica
+5.5 to 7.0,Iris-virginica
