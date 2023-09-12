@@ -11,7 +11,7 @@ The work within these folders are very fundamental. Within 0, there is simple ht
 
 ## "2 splittingdata"
 The work within this folder are mainly located within the five files listed below. The other files are data I used to test splitting on (for test-train splits)
-stratifytesttrain.py: Split the mushroom.csv file into 2 files-33% into one file for testing and 66% into another for training. This was done through stratified sampling rather than random sampling, so that the testing and training would have classes proportional to the original dataset.
+- stratifytesttrain.py: Split the mushroom.csv file into 2 files-33% into one file for testing and 66% into another for training. This was done through stratified sampling rather than random sampling, so that the testing and training would have classes proportional to the original dataset.
 - stratifytesttrain2.py: Similar to stratifytesttrain.py, but for the iris dataset.
 - train-test-split.py: Used random sampling to split a dataset of 1000 points into test and train datasets. 33% was put into test and the rest was put into a training dataset.
 - train-test-split2.py: Tested if the method from sklearn performed stratified sampling or not.
