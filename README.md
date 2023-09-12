@@ -38,4 +38,23 @@ Within this project there are 2 main files:
 - knn.py: Coded a KNN that would classify irises without using Python libraries
 - knnLibraries.py: Coded KNN that would classify irises with using Python libraries
 
+## "3.3 K-Means"
+within this project there are 3 main files:
+- kmeans.py: Coded a K-Means network that would classify irises without using Python libraries
+- kmeansLibraries.py: Coded K-Means that would classify irises with using Python libraries
+- bruh.py: for some reason, my imports were returning errors so I was debugging within the file. The name "bruh" was an expression of my frustration.
+
+# 4: More complicated machine learning algorithms
+
+## "4.1 CNN" 
+- Created a CNN that identified objects within an image (dogs vs cats). However, this work was performed on my better computer which I do not currently have access to, so I will have to upload it later. To see a better image classifier, please visit the "trash-boat" repository and view the Yolo-v5 network created to identify trash.
+
+## "4.2 Q2 Project Stuff"
+Another mini-project in which we modified KNN's weighting formula to see if we could gain greater results using more rounded curves in comparison to the typical straight line. Research paper will be posted at a later time when access is regained.
+
+## "4.3 SVM" 
+I created support vector machines: one of which to classify the iris dataset (irisSVM.py) and the other to classify random points a different classes (svm.py).
+
+# 4.4 - 9 TBD
+
 
