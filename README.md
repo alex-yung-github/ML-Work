@@ -2,6 +2,9 @@
 Machine Learning (ML) labs done of the course of my senior year in high school.
 
 Within my "machine learning work folder," there are corresponding folders with the labels indicating which machine learning technique I used. 
+
+### Note: The higher numbers correspond with generally higher level ML topics.
+
 Below is a description of what each file in each folder does. Other than the headers, I will refer to each folder to their index number.
 
 
@@ -55,6 +58,20 @@ Another mini-project in which we modified KNN's weighting formula to see if we c
 ## "4.3 SVM" 
 I created support vector machines: one of which to classify the iris dataset (irisSVM.py) and the other to classify random points a different classes (svm.py).
 
-# 4.4 - 9 TBD
+## "4.4 perceptrons"
+Worked with creating perceptron networks in three different ways that correspond to the three files.
+- pp1.py: trained perceptrons coded from scratch on 2 sets of points to classify each point as a point within either of the 2 separate clusters
+- pp2.py: trained perceptrons coded from scratch on the iris dataset to classify each iris instance as its correct tyope
+- pp3.py: Used Python libraries to create a multilayered perceptron network that was trained and tested on the iris dataset.
+
+## "4.5 NN"
+Created a NN using multilayered perceptrons to classify 10,000 points of data within the text file. There is only 1 important file, and that is backprop.py. The other files were tests I was doing in a separate file in order to "not mess up" the main backpropagation file. 
+- backprop.py: Hard coded the backpropagation technique to create weights that would classify whether or not a given point was on a designated circle or not.
+
+# 5: MNIST
+Hardcoded a neural network that would take the pictures from the MNIST dataset (images of numbers; top result on Google search) in order to classify them as a number. I utilized backpropagation as well as the combination of forward pass, mean squared error, and backward pass in order to update the weights so that my neural network would be able to classify points with high accuracy. The MNIST code is heavily commented on the process, so feel free to take a look.
+
+
+# 6 - 9 TBD
 
 
