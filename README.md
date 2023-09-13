@@ -69,9 +69,26 @@ Created a NN using multilayered perceptrons to classify 10,000 points of data wi
 - backprop.py: Hard coded the backpropagation technique to create weights that would classify whether or not a given point was on a designated circle or not.
 
 # 5: MNIST
-Hardcoded a neural network that would take the pictures from the MNIST dataset (images of numbers; top result on Google search) in order to classify them as a number. I utilized backpropagation as well as the combination of forward pass, mean squared error, and backward pass in order to update the weights so that my neural network would be able to classify points with high accuracy. The MNIST code is heavily commented on the process, so feel free to take a look.
+Hardcoded a neural network that would take the pictures from the MNIST dataset (images of numbers; top result on Google search) in order to classify them as a number. I utilized backpropagation as well as the combination of forward pass, mean squared error, and backward pass in order to update the weights so that my neural network would be able to classify points with high accuracy. The MNIST code is heavily commented on the process, so feel free to take a look. The accuracy ends up being over 90%
 
+# 6: Vanishing and Exploding Gradient
+There is one main file for this section: trainModel.py. The other files are for testing different bits of code (such as bruh.py)
+You'll notice, if you run it, that the accuracy is 0. This is because this was an experiment to test the problems of vanishing and exploding gradient, and graph the errors that would occur.
 
-# 6 - 9 TBD
+# 7: CNN
+Within this section, I worked on creating Convolutional Neural Networks through Tensorflow. There are 2 main files in this:
+- dogvcat.py: I separated the files into a training set of dogs and cats to have classifier train on it. Then, I ran tests on the pictures within the testwlabels folder. The training runs for 25 epochs, but can be easily modified. The accuracy reaches over 85%.
+ - Note: I had to delete .gitignore the training files because they were too big for Github, but they can be found easily on the internet with a Google search.
+- mnistv.py: Instead of classifying dog and cat pictures, I instead classified the numbers within the MNIST dataset. This was to compare the previous hardcoded NN to the CNN built by Tensorflow.
+
+# 8: Neural Style Transfer
+Within this project, I took a picture of myself and merged it with a famous painting. The final image can be seen in the images folder under the name "createdImage.jpg," and the images used to create this were "me.jpg" and "styleImage2Resized.jpg." The other images were other tests I decided to do.
+
+# 9: Markov Decision Process
+For this project, I was tasked to label each "X" value on the board with a number in a way such that from the start point, the user would be able to reach the end point by following the highest adjacent number. 
+Files:
+ - main.py: runs the markov decision process on given boards. On the given boards, it reaches a state where the path is correct every time.
+ - main2.py: used for testing so the main file would not be messed up with experimentation edits.
+
 
 
